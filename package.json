@@ -1,33 +1,24 @@
 {
-  "name": "nelsonnn",
+  "name": "nelson_portfolio",
   "version": "1.0.0",
-  "description": "Portfolio website",
-  "main": "index.html",
-  "homepage": "https://nelsonnnn.github.io/nelson_portfolio",
-    "scripts": {
-        "deploy": "gh-pages -d dist",
-        "sass": "node-sass -w scss/ -o dist/css/ --recursive"
-    },
+  "description": "Portfolio",
+  "homepage": "https://NelsonNNN.github.io/nelson_portfolio",
+  "bugs": {
+    "url": "https://github.com/NelsonNNN/nelson_portfolio/issues"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/NelsonNNN/nelson_portfolio.git"
   },
-  "author": "Nelson N",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/NelsonNNN/nelson_portfolio/issues"
+  "author": "Nelson Nyamwaro",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass -w scss -o dist/css/ --recursive"
+    "deploy": "gh-pages -d dist"
   },
-    "dependencies": {
-        "gh-pages": "^6.1.1",
-        "node": "^22.3.0",
-        "nodee": "^0.1.0",
-        "node-sass": "^9.0.0"
-    },
-  "devDependencies": {
-    "gh-pages": "^6.1.1"
-
-  },
-  "keywords": [
-    "eagleeye51"
-  ]
+  "dependencies": {
+    "sass": "^1.97.2"
+  }
 }
